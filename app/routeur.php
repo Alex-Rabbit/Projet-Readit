@@ -1,6 +1,14 @@
 <?php
 /*
     ./app/routeur.php
+    Le routeur charge le  controleur et lance l'action qui  correspond
+    à ce qui se passe dans l'URL
 */
 
-$content = "<h1>Coucou</h1>";
+// ROUTE PAR DEFAUT: Liste des posts
+// PATTERN: /
+// CTRL: postsControleur
+// ACTION: index
+
+   include_once '../app/controleurs/postsControleur.php';
+   \App\Controleurs\Posts\indexAction($connexion);
