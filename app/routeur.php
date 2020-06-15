@@ -12,3 +12,13 @@
 
    include_once '../app/controleurs/postsControleur.php';
    \App\Controleurs\Posts\indexAction($connexion);
+
+// ROUTE DU DETAIL D'UN POST
+// PATTERN: /?postID=x
+// CTRL: produitsControleur
+// ACTION: show
+/*
+if (isset($_GET['postID'])):
+  include_once '../app/controleurs/postsControleur.php';
+  \App\Controleurs\Posts\showAction($connexion, $_GET['postID']);
+*/

@@ -4,7 +4,7 @@ CONSIGNES :
     PATTERN: /
     CTRL: postsControleur
     ACTION: index
-      > Affichage des 1 derniers posts
+      > Affichage des 10 derniers posts
         Title + resume + date (jour, mois, année séparément)
       > Le lien READ MORE vers le détails du post
 
